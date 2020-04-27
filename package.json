@@ -1,0 +1,50 @@
+{
+  "name": "jsdoc-file",
+  "version": "1.0.0",
+  "description": "JSDoc plugin to create files inside directory of generated documentation (e.g. .nojekyll etc)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --cache --max-warnings 0 index.js \"src/**/*.js\"",
+    "lint-error": "eslint --cache index.js \"src/**/*.js\"",
+    "lint-all": "eslint --max-warnings 0 index.js \"src/**/*.js\"",
+    "lint-all-error": "eslint index.js \"src/**/*.js\"",
+    "test": "jest",
+    "check": "npm run lint && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gamtiq/jsdoc-file.git"
+  },
+  "keywords": [
+    "jsdoc",
+    "plugin",
+    "create",
+    "file",
+    "directory",
+    "write",
+    "content",
+    "documentation",
+    "empty",
+    ".nojekyll",
+    "nojekyll"
+  ],
+  "author": "Denis Sikuler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gamtiq/jsdoc-file/issues"
+  },
+  "homepage": "https://github.com/gamtiq/jsdoc-file#readme",
+  "dependencies": {
+    "fs-extra": "9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-guard": "1.1.0",
+    "husky": "4.2.5",
+    "jest": "25.4.0",
+    "jsdoc": ">=3.2.1"
+  },
+  "peerDependencies": {
+    "jsdoc": ">=3.2.1"
+  }
+}
