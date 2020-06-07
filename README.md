@@ -7,6 +7,7 @@
 * [Installation](#install)
 * [Usage](#usage)
 * [Examples](#examples)
+* [Related projects](#related)
 * [Contributing](#contributing)
 * [License](#license)
 
@@ -98,6 +99,11 @@ Skip creating some files by setting `false`/`null` value for them:
     "some/dir/file.md": null
 }
 ```
+
+## Related projects <a name="related"></a> [&#x2191;](#start)
+
+* [makef](https://github.com/gamtiq/makef) - a utility to create files inside specified directory.
+* [typedoc-light-theme](https://github.com/gamtiq/typedoc-light-theme) - [TypeDoc](https://typedoc.org/) theme that adds some useful options (header links, custom style and script, ability to create files etc).
 
 ## Contributing <a name="contributing"></a> [&#x2191;](#start)
 In lieu of a formal styleguide, take care to maintain the existing coding style.
