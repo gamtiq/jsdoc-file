@@ -111,5 +111,5 @@ Add unit tests for any new or changed functionality.
 Lint and test your code.
 
 ## License <a name="license"></a> [&#x2191;](#start)
-Copyright (c) 2020 Denis Sikuler  
+Copyright (c) 2020-2021 Denis Sikuler  
 Licensed under the MIT license.
