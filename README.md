@@ -16,7 +16,6 @@
     npm install jsdoc-file --save-dev
 
 This plugin requires the following:
-* Node.js version >= 6.4
 * JSDoc version >= 3.2.1
 
 ## Usage <a name="usage"></a> [&#x2191;](#start)
