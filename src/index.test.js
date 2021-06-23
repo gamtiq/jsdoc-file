@@ -1,5 +1,5 @@
 const path = require('path');
-const fse = require('fs-extra');
+const fse = require('makef').fse;
 const env = require('jsdoc/lib/jsdoc/env');
 
 jest.mock('jsdoc/lib/jsdoc/util/logger');

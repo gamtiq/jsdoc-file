@@ -9,7 +9,8 @@
     "lint-all": "eslint --max-warnings 0 index.js \"src/**/*.js\"",
     "lint-all-error": "eslint index.js \"src/**/*.js\"",
     "test": "jest",
-    "check": "npm run lint && npm test"
+    "check": "npm run lint && npm test",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -35,15 +36,16 @@
   },
   "homepage": "https://github.com/gamtiq/jsdoc-file#readme",
   "dependencies": {
-    "makef": "^1.0.0"
+    "makef": "^1.2.0"
   },
   "devDependencies": {
-    "eslint": "^7.2.0",
-    "eslint-config-guard": "1.1.0",
-    "fs-extra": "^9.0.1",
-    "husky": "4.2.5",
-    "jest": "^26.0.1",
-    "jsdoc": ">=3.2.1"
+    "eslint": "^7.29.0",
+    "eslint-config-guard": "^2.1.0",
+    "eslint-plugin-node": "^11.1.0",
+    "fs-extra": "^10.0.0",
+    "husky": "^6.0.0",
+    "jest": "^27.0.5",
+    "jsdoc": "^3.6.7"
   },
   "peerDependencies": {
     "jsdoc": ">=3.2.1"
