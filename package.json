@@ -1,6 +1,6 @@
 {
   "name": "jsdoc-file",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "JSDoc plugin to create files inside directory of generated documentation (e.g. .nojekyll etc)",
   "main": "index.js",
   "scripts": {
